@@ -13,10 +13,10 @@ struct Item {
 
 class ViewController: UIViewController {
     
-    var items: [Item] = [Item(imageName: "1"),
+    var items: [Item] = [Item(imageName: "5"),
                          Item(imageName: "2"),
-                         Item(imageName: "3"),
-                         Item(imageName: "4"),
+                         Item(imageName: "8"),
+                         Item(imageName: "12"),
                          Item(imageName: "5"),
                          Item(imageName: "6"),
                          Item(imageName: "7"),
@@ -24,7 +24,10 @@ class ViewController: UIViewController {
                          Item(imageName: "9"),
                          Item(imageName: "10"),
                          Item(imageName: "11"),
-                         Item(imageName: "12")]
+                         Item(imageName: "12"),
+                         Item(imageName: "2"),
+                         Item(imageName: "5"),
+                         Item(imageName: "7")]
     
     @IBOutlet weak var collectionView: UICollectionView!
     
